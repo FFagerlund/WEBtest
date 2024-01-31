@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     background: url('Images/Pinkcloud.jpg') repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     font-size: 35px;
     color: rgb(255, 0, 174);
 }
