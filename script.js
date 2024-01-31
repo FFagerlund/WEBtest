@@ -8,8 +8,8 @@ function showMessage(response) {
     // Set button position to absolute
     noButton.style.position = "absolute";
 
-    // Change image source to "Notfunny.gif"
-    document.getElementsByClassName("image")[0].src = "images/gun.jpg";
+    // Change image source to "Notfunny.jpg"
+    document.getElementsByClassName("image")[0].src = "Images/Notfunny.jpg";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -37,7 +37,7 @@ function showMessage(response) {
     yesMessage.textContent = "You are trapped forever and you have no escape. Love you!";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/kissy.gif";
+    document.getElementsByClassName("image")[0].src = "Images/kissy.gif";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
